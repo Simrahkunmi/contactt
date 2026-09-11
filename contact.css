@@ -1,63 +1,100 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: Arial, sans-serif;
     background: lavenderblush;
     color: rosybrown;
     padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
-h1{
+
+h1 {
     text-align: center;
     font-size: 32px;
     color: lightpink;
     margin: 20px;
-    
+
 }
 
-p{
+p {
     font-size: 17px;
     line-height: 0.8;
     max-width: 700px;
-    margin: auto;
-    padding:20px;
+
+    padding: 20px;
     text-align: center;
     color: rosybrown;
 }
-label{
+
+label {
     margin-top: 15px;
     margin-bottom: 5px;
     color: white;
     text-align: left;
 }
-button{
+
+button {
     margin: 15px auto 0;
     padding: 10px 20px;
     border: 0;
     border-radius: 6px;
     background-color: white;
     cursor: pointer;
-    
+
 }
-form{
+
+form {
     margin-top: 25px;
     text-align: center;
 }
-input{
+
+input {
     padding: 12px;
     border-radius: 8px;
     margin-bottom: 20px;
     border: none;
-    
+    width: 90%;
+
 
 }
-.form-card{
+
+.form-card {
     background-color: palevioletred;
     padding: 20px 15px;
-    margin: 40px auto;
-    width: 50%;
+    /* margin: 40px auto; */
+    width: 80%;
     border-radius: 20px;
     box-shadow: 5px 5px 10px grey;
+}
+
+@media(min-width:768px) {
+
+    .form-card {
+        width: 50%;
+    }
+
+
+
+}
+
+.navbar {
+    background-color: rosybrown;
+    padding: 15px;
+    text-align: center;
+    height: 5vh;
+    width: 100%;
+}
+
+.navbar a {
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
