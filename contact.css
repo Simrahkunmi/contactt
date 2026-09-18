@@ -31,6 +31,7 @@ p {
     padding: 20px;
     text-align: center;
     color: rosybrown;
+    margin: 0 auto;
 }
 
 label {
@@ -68,7 +69,7 @@ input {
 .form-card {
     background-color: palevioletred;
     padding: 20px 15px;
-    /* margin: 40px auto; */
+    margin: 40px auto;
     width: 80%;
     border-radius: 20px;
     box-shadow: 5px 5px 10px grey;
@@ -85,7 +86,7 @@ input {
 }
 
 .navbar {
-    background-color: rosybrown;
+    background-color: lavenderblush;
     padding: 15px;
     text-align: center;
     height: 5vh;
